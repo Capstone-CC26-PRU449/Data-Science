@@ -1,6 +1,6 @@
 # Pantau Pasar - Data Science
 
-Bagian ini mencakup proses pengumpulan, penilaian, dan pembersihan data untuk proyek Pantau Pasar, sebuah aplikasi pemantauan dan prediksi harga pangan strategis di Indonesia.
+Bagian ini mencakup proses pengumpulan, penilaian, dan pembersihan data untuk proyek Pantau Pasar, sebuah sistem pemantauan dan prediksi harga pangan strategis di Indonesia.
 
 ## Sumber Data
 
