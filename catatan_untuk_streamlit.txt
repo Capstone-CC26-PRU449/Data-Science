@@ -1,0 +1,37 @@
+---------------------------------------
+insight selama EDA dan Feature Engineerning
+----------------------------------------
+
+Cabai rawit dan cabai merah adalah komoditas paling volatile di data pihps, harganya
+bisa naik 2-3x dalam hitungan minggu, terutama pas mendekati Lebaran. lalu yang bikin unik,
+bawang merah justru cenderung lebih murah selama Ramadan tapi melonjak tajam di H-7 Lebaran,
+jadi pola "Ramadan = harga naik" tidak berlaku merata untuk semua komoditas.
+
+Minyak goreng punya cerita sendiri, ada lonjakan ekstrem di awal 2022 yang kemudian
+melandai setelah intervensi pemerintah lewat HET. Ini salah satu contoh paling jelas
+di data bagaimana kebijakan berdampak langsung ke harga.
+
+Secara umum hampir semua komoditas tren naik dari 2022 ke 2026, jadi kenaikan harga
+harian perlu dibaca dalam konteks tren jangka panjang ini.
+
+Titik-titik outlier di data bukan noise, itu momen nyata seperti krisis atau lonjakan
+Lebaran yang memang terjadi. bakalan bagus untuk tetap ditampilkan agar user bisa melihat
+kapan harga sedang tidak normal.
+
+
+-------------
+trus yang ideal kalau ada didashboard
+-------------
+
+Tren harga historis per komoditas dalam bentuk grafik interaktif, dengan opsi memilih
+beberapa komoditas sekaligus untuk dibandingkan. bakalan lebih bagus kalau ada penanda visual untuk
+periode Ramadan dan titik outlier supaya konteksnya langsung terlihat.
+
+Harga terkini per komoditas beserta perubahannya dibanding beberapa hari terakhir,
+cukup sebagai penanda apakah harga sedang naik atau turun, bukan angka mutlak saja.
+
+Untuk data regional, SP2KP punya cakupan 514 kabupaten/kota tapi hanya tersedia
+Jan-Apr 2026. Cocok untuk snapshot perbandingan harga antar wilayah, bukan untuk
+tren historis.
+
+Section prediksi harga, perlu nunggu model AI Engineer biar bisa tau input/output sebelum diintegrasikan.
