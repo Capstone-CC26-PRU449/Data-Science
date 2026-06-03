@@ -1,0 +1,4 @@
+# Dependensi khusus untuk Dashboard Streamlit
+pandas==3.0.3
+plotly==6.7.0
+streamlit==1.56.0
